@@ -9,7 +9,7 @@ resource "aws_instance""ramser"{
    subnet_id = "subnet-0855548b411ab5108"
    security_groups = ["sg-092cd51b74e79a773"]
    tags={
-    Name = "newser"
+    Name = "serverram"
     Env = "dev"
 }
 }
